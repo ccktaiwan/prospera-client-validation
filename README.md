@@ -1,89 +1,112 @@
 Prospera OS
-Client Repository Template
+Client Validation Repository
+Authority Boundary
+
+Authority Boundary Statement:
+This repository is a validation and audit repository used to verify adoption and compliance with Prospera OS Governance. It does not define governance authority, system rules, or execution constraints. All canonical governance and execution definitions reside exclusively in the prospera-os repository.
 
 Repository Purpose
 
-This repository is a client-facing project repository that operates under Prospera OS Governance.
+This repository exists to validate whether a client project repository has correctly adopted and complied with Prospera OS Governance.
 
-It is intended for engineering implementation, documentation, and AI-assisted execution within predefined governance boundaries.
+It is used to assess governance alignment, authority boundaries, AI usage compliance, and traceability of execution artifacts.
 
-This repository does not define governance rules, authority models, or enforcement logic.
+This repository does not introduce execution logic, governance rules, or enforcement mechanisms.
 
-Governance Model
+Validation Scope
 
-This repository adopts Prospera OS Governance as its governing framework.
+This repository may be used to validate:
 
-Governance authority, rules, enforcement mechanisms, and escalation paths are defined externally.
+Proper adoption of Prospera OS Governance
 
-See GOVERNANCE_ADOPTION_DECLARATION.md for the formal adoption declaration.
+Presence and correctness of governance adoption declarations
 
-What This Repository Is For
+Clear authority ownership and responsibility assignment
 
-This repository may be used for:
+Compliance with AI participation boundaries
 
-Software implementation and configuration
+Traceability of AI-assisted and human-executed activities
 
-Architecture realization based on approved specifications
+Adherence to escalation and review requirements
 
-Documentation of implementation artifacts
+Validation focuses on evidence and alignment, not implementation output quality.
 
-AI-assisted code generation under permitted participation modes
-
-Testing, validation, and delivery activities
-
-All activities must comply with the adopted governance specifications.
-
-What This Repository Is NOT For
+What This Repository Is NOT
 
 This repository must NOT be used for:
 
 Defining or modifying governance rules
 
-Redefining authority ownership or escalation paths
+Acting as a governance authority
 
-Overriding AI participation boundaries
+Introducing enforcement tooling
 
-Introducing enforcement logic or governance tooling
+Replacing human accountability with automated checks
 
-Treating AI-generated outputs as authoritative decisions
+Certifying business, legal, or regulatory compliance
 
-Any attempt to perform the above is considered a governance violation.
+This repository supports governance validation only.
 
-AI Usage Rules
+Validation Methodology
 
-AI systems may be used only as permitted by the adopted governance specifications.
+Validation activities may include:
 
-AI outputs are advisory unless explicitly reviewed and approved by a responsible human.
+Review of governance adoption declarations
 
-AI systems may not make final decisions, enforce rules, or override human authority.
+Inspection of repository structure and documentation
 
-All AI-assisted activities must remain traceable and reviewable.
+Sampling of AI-assisted artifacts for traceability and approval
 
-Authority and Responsibility
+Verification of human responsibility attribution
 
-Human maintainers retain full authority and responsibility for all outcomes produced in this repository.
+Identification of governance gaps or violations
 
-AI systems do not hold authority.
+Validation results are advisory and must be reviewed by responsible human authorities.
 
-Responsibility cannot be delegated to tools, models, or automation.
+Relationship to Client Repositories
+
+This repository is designed to operate against client project repositories derived from the Prospera OS Client Repository Template.
+
+It does not modify client repositories.
+
+Findings may result in:
+
+Remediation recommendations
+
+Governance escalation
+
+Artifact invalidation
+
+Adoption confirmation
 
 Governance Compliance
 
-This repository is subject to governance audit and review.
+All validation activities are subject to Prospera OS Governance.
 
-All work must be traceable to responsible human actors.
+Validation artifacts must remain traceable
 
-Non-compliant artifacts may be invalidated.
+Findings must reference evidence
 
-In case of uncertainty, ambiguity, or conflict, governance escalation must occur.
+Authority for decisions remains with designated human roles
+
+In case of uncertainty or conflict, governance escalation is required.
 
 Reference Documents
 
-GOVERNANCE_ADOPTION_DECLARATION.md
-Prospera OS Governance Repository (ai-governed-software-engineering)
+Prospera OS — Canonical System Index
+https://github.com/ccktaiwan/prospera-os
 
-────────────────────────────────────────
+Client Repository Template
+https://github.com/ccktaiwan/client-repo-template
+
+Status
+
+Repository Role: Validation and Audit
+
+Governance Authority: External (Prospera OS)
+
+Automation Level: Minimal and advisory
+
+Enforcement Capability: None
+
 End of Document
-────────────────────────────────────────
-
-Commit 設定（請照用）
